@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitrak</title>
+    <link rel="icon" href="./images/logo.png" >
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+        <div class="logo">
+            <img src="./images/logo.png" alt="logo" width="130px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="/index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="">Products &#x25BE;</a>
+                    <div class="dropdown-content">
+                        <a href="#featured-products">Featured Products</a>
+                        <a href="#latest-products">Latest Products</a>
+                    </div>
+                    
+                </li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <img src="./images/cart.png" alt="cart image" width="30px" height="30px">
+        <img src="images/menu.png" alt="image" class="menu-icon" onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Give Your Workout<br>A New Style!</h1>
+            <p>Success isn't always about greatness. It's about
+               Consistency. Consistent <br>hard work gains success. Greatness will come.
+            </p>
+            <a href="#featured-products" class="btn" >Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="./images/image1.png" alt="Image not found">
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- featured categories -->
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="/images/category-1.jpg" alt="image not found">
+                </div>
+                <div class="col-3">
+                    <img src="/images/category-2.jpg" alt="image not found">
+                </div>
+                <div class="col-3">
+                    <img src="/images/category-3.jpg" alt="image not found">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- featured products -->
+
+    <div class="small-container">
+        <h2 class="title" id="featured-products">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="/images/product-1.jpg" alt="image not found">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-2.jpg" alt="image not found">
+                <h4>Black HRX Running Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$60.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-3.jpg" alt="image not found">
+                <h4> Dark Grey Slim Fit Joggers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$40.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-4.jpg" alt="image not found">
+                <h4>Navy Blue Puma Polo T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$55.00</p>
+            </div>
+        </div>
+
+        <h2 class="title" id="latest-products">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="/images/product-5.jpg" alt="image not found">
+                <h4>High-Top Light Grey Sneakers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$65.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-6.jpg" alt="image not found">
+                <h4>Black Puma Graphic T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-7.jpg" alt="image not found">
+                <h4>HRX Ankle-Length Cotton Socks</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$15.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-8.jpg" alt="image not found">
+                <h4>Fossil Black Metal Analog Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$120.00</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="/images/product-9.jpg" alt="image not found">
+                <h4>Roadster Black Leather Strap Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$45.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-10.jpg" alt="image not found">
+                <h4>Black & Red Trail Running Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$70.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-11.jpg" alt="image not found">
+                <h4>Slip-On Grey Mesh Sneakers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$55.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-12.jpg" alt="image not found">
+                <h4>Nike Black Slim Fit Joggers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- offer -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="/images/exclusive.png" alt="image not found" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively available on Fitrak</p>
+                    <h1>Smart Band 4</h1>
+                    <small>Stay on top of your fitness with the Mi Smart Band 4 features a vivid AMOLED color display, 24/7 heart rate monitoring, and up to 20 days of battery life. 
+                        Track your workouts, sleep, and notifications with ease, all in a sleek, water-resistant design.
+                    </small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- testimonial -->
+     <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae sequi accusamus quia vel esse sed adipisci officiis enim, 
+                        facere ad praesentium ea? Hic, quidem perspiciatis laudantium iste nemo mollitia sunt!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="/images/user-1.png" alt="user image">
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae sequi accusamus quia vel esse sed adipisci officiis enim, 
+                        facere ad praesentium ea? Hic, quidem perspiciatis laudantium iste nemo mollitia sunt!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="/images/user-2.png" alt="user image">
+                    <h3>Mike Smith</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae sequi accusamus quia vel esse sed adipisci officiis enim, 
+                        facere ad praesentium ea? Hic, quidem perspiciatis laudantium iste nemo mollitia sunt!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="/images/user-3.png" alt="user image">
+                    <h3>Mabel Joe</h3>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- brands -->
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-godrej.png" alt="image not found">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-oppo.png" alt="image not found">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-coca-cola.png" alt="image not found">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-paypal.png" alt="image not found">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-philips.png" alt="image not found">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="image not found">
+                        <img src="images/app-store.png" alt="image not found">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <a href="/index.html"><img src="images/logo1.png" alt="image not found"></a>
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits 
+                        of Sports Accessible to the Many. 
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">
+                &copy;Copyright 2025 - Fitrak
+            </p>
+        </div>
+    </div>
+
+    <!-- js for toggle menu -->
+
+    <script>
+        var MenuItems=document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight=="0px"){
+                MenuItems.style.maxHeight="200px";
+            }
+            else{
+                MenuItems.style.maxHeight="0px";
+            }
+        }
+
+    </script>
+
+</body>
+</html>
